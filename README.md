@@ -1,18 +1,18 @@
-## Integrantes
-# Vanessa Malverde
-# Sebastian Astudillo
+# Integrantes
+### Vanessa Malverde
+### Sebastian Astudillo
 
-## Iniciar Contenedores:
+# Iniciar Contenedores:
 
 ```sh
     docker-compose up --build # Se recomienda quitar --build si no se desea rebuilder.
 ```
 
-## Funciones:
+# Funciones:
 
 Se utilizó postman para las pruebas enviando un Body del tipo JSON a través de POST 
 
-# localhost:3000/RegistroMiembro
+## localhost:3000/RegistroMiembro
 ```json
 {
     "nombre":"vanessa", 
@@ -24,7 +24,7 @@ Se utilizó postman para las pruebas enviando un Body del tipo JSON a través de
 }
 ```
 
-# localhost:3000/RegistroVenta
+## localhost:3000/RegistroVenta
 ```json
 {   
     "patente":"22",
@@ -35,7 +35,7 @@ Se utilizó postman para las pruebas enviando un Body del tipo JSON a través de
 }
 ```
 
-# localhost:3000/RegistroAviso
+## localhost:3000/RegistroAviso
 ```json
 {   
     "patente":"22",
